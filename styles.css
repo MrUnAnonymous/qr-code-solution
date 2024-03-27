@@ -1,0 +1,59 @@
+.body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+}
+
+.image{
+    height: 250px;
+    width: 230px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+}  
+
+.heading{
+    color: hsl(218, 44%, 22%);
+    font-size: 17px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+}
+
+.para{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 13px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
